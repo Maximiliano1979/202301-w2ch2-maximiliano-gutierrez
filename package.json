@@ -2,14 +2,16 @@
   "name": "strictequals-function",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rimraf dist/",
-    "prebuild:dev": "rimraf dist/"
+    "prebuild:dev": "rimraf dist/",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
 }
-
